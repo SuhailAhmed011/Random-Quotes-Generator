@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #706fd3;
+}
+
+body,
+html {
+
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 70px 0;
+  border: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  background-color: #474787;
+}
+
+h2 {
+  display: flex;
+  font-size: 30px;
+  background-color: #706fd3;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 1px;
+}
+
+#btn{
+    border: 2px solid black;
+}
+
+#quote {
+background-color: #474787;
+font-size: 25px;
+color: white;
+}
+
+#author{
+    background-color: #474787;
+    font-size: 20px;
+    color: black
+}
